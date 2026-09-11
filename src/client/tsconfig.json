@@ -1,0 +1,9 @@
+{
+  // Browser code: DOM, no Bun APIs.
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "lib": ["ESNext", "DOM"],
+    "types": []
+  },
+  "include": ["."]
+}

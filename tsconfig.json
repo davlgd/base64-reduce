@@ -1,0 +1,9 @@
+{
+  // Server and tests: Bun APIs, no DOM. Browser code has its own config in src/client.
+  "extends": "./tsconfig.base.json",
+  "compilerOptions": {
+    "lib": ["ESNext"],
+    "types": ["bun"]
+  },
+  "include": ["src/*.ts", "src/site", "test"]
+}
